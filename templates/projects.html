@@ -22,7 +22,9 @@
           {{ project.description }}
         </p>
         <div class="project-links">
+          {% if project.live %}
           <a href="{{ project.live }}" class="btn">Live Site</a>
+          {% endif %}
           <a href="{{ project.repo }}" class="btn">GitHub Repo</a>
         </div>
       </div>
