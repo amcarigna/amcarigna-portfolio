@@ -1,5 +1,32 @@
 projects = [
     {
+        "image": "/static/images/pet.png",
+        "name": "Pet Adoption",
+        "techs": [
+            "Python",
+            "Flask",
+            "SQLAlchemy"
+        ],
+        "description": """Pet Adoption Website. Locally hosted web app built with Flask and SQLAlchemy. (Not associated
+        with any real pet adoption agency.) This simple application provides basic CRUD operations for a database
+        designed to hold pet information (name, breed, age, weight, color, etc.).""",
+        #"live": "https://python-portfolio-f63j.onrender.com/",
+        "repo": "https://github.com/amcarigna/pet-adoption"
+    },
+    {
+        "image": "/static/images/alchemy.png",
+        "name": "Book Database App",
+        "techs": [
+            "Python",
+            "SQLAlchemy"
+        ],
+        "description": """A Simple Book Database App. Runs in terminal with Python. Built on SQLAlchemy. This simple
+        application provides basic CRUD operations for a database designed to hold book information (title, author,
+        publication date, price).""",
+        #"live": "https://python-portfolio-f63j.onrender.com/",
+        "repo": "https://github.com/amcarigna/simple-book-db-app"
+    },
+    {
         "image": "/static/images/book.png",
         "name": "Book Analysis with Pandas",
         "techs": [
