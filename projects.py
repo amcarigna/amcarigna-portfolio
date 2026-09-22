@@ -1,5 +1,21 @@
 projects = [
     {
+        "image": "/static/images/rest.png",
+        "name": "Course List API",
+        "techs": [
+            "Python",
+            "Flask",
+            "Peewee"
+        ],
+        "description": """Currently runs locally from terminal. REST API built with Flask on top of Peewee for database
+        management. Created in a Treehouse course. The API provides methods to get, post, put, and delete courses and
+        course reviews from a database. The Peewee database also provides a User table which is used as the basis to
+        authenicate access to certain methods with the argon2 package. Courses and their reviews are linked with foreign
+        keys.""",
+        # "live": "https://python-portfolio-f63j.onrender.com/",
+        "repo": "https://github.com/amcarigna/course-list-api"
+    },
+    {
         "image": "/static/images/pet.png",
         "name": "Pet Adoption",
         "techs": [
