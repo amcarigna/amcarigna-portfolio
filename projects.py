@@ -10,8 +10,8 @@ projects = [
         "description": """Currently runs locally from terminal. REST API built with Flask on top of Peewee for database
         management. Created in a Treehouse course. The API provides methods to get, post, put, and delete courses and
         course reviews from a database. The Peewee database also provides a User table which is used as the basis to
-        authenicate access to certain methods with the argon2 package. Courses and their reviews are linked with foreign
-        keys.""",
+        authenticate access to certain methods with the argon2 package. Courses and their reviews are linked with
+        foreign keys.""",
         # "live": "https://python-portfolio-f63j.onrender.com/",
         "repo": "https://github.com/amcarigna/course-list-api"
     },
@@ -65,12 +65,12 @@ projects = [
             "Pandas",
             "Jupyter Notebook"
         ],
-        "description": """In this project, I cleaned up a small dataset containing a list of pokemon and their
+        "description": """In this project, I cleaned up a small dataset containing a list of Pokemon and their
         attributes. The .csv file had many mistakes and errors to be cleaned, including: bad data types (strings in
         numeric columns and vice versa), duplicate data, missing data, bad data formatting (e.g., wrong case or bad
-        punctuation), typos, and hanging whitespace. Then I saved the cleaned up dataset to a new .csv file. In order to
-        do this, I also created functions to search the dataframe a little more easily, and a function to move rows
-        around to preserve the order of the pokemon after deletions.""",
+        punctuation), typos, and hanging whitespace. Then, I saved the cleaned up dataset to a new .csv file. In order
+        to do this, I also created functions to search the dataframe a little more easily, and a function to move rows
+        around to preserve the order of the Pokemon after deletions.""",
         #"live": "https://python-portfolio-f63j.onrender.com/",
         "repo": "https://github.com/amcarigna/pandas-data-cleaning"
     },
@@ -85,7 +85,7 @@ projects = [
         ],
         "description": """This is the project that created the webpage you are on right now! It uses Flask to create a
         simple webpage for exhibiting current and prior projects. Most of the work in creating the webpage was done
-        using HTML, but some Python was used, including for the storage of this paragraph.""",
+        using HTML, but some Python functionality was used, including for the storage of this paragraph.""",
         "live": "https://python-portfolio-f63j.onrender.com/",
         "repo": "https://github.com/amcarigna/amcarigna-portfolio"
     },
@@ -98,9 +98,9 @@ projects = [
             "NumPy"
         ],
         "description": """A python application for generating power rankings for a sports league. Currently in
-        development. Developed with using the NFL (American Football) in mind. At the moment it functions more like a
-        package due to the fact that it is missing a user interface. I've been using Jupyter Notebook to run functions
-        from it. The necessary functions are all present and work properly. The most important function is:
+        development. Developed with using the NFL (American Football) in mind. At the moment, it functions more like a
+        package because it is missing a user interface. I've been using Jupyter Notebook to run functions
+        from it. The necessary functions are all present and work properly. The most important function is
         models.build_league(), which will build a computer model of a league for the first time, or load previous league
         data.""",
         #"live": "https://python-portfolio-f63j.onrender.com/",
@@ -114,9 +114,9 @@ projects = [
         ],
         "description": """This project is in early development. The goal of the project is to create an application to
         add, search, update, and delete trading cards from one's inventory. It uses Scryfall API to get trading card
-        information.The purpose of this project is two-fold: One, to be able to store inventory digitally and locally
-        without needing to subscribe to some online service. Two, to see if the features provided by those online
-        services can improved upon.""",
+        information. The purpose of this project is two-fold: First, to be able to store inventory digitally and locally
+        without needing to subscribe to some online service. Second, to see if the features provided by those online
+        services can be improved upon.""",
         #"live": "https://python-portfolio-f63j.onrender.com/",
         "repo": "https://github.com/amcarigna/mtg-inventory"
     },
@@ -129,7 +129,7 @@ projects = [
             "CSS"
         ],
         "description": """This project served as an introduction to using Git and Github. Before this, I was aware
-        generally of version control, why it is, and rough logic behind how it works. But using Git and Github always
+        generally of version control, its purpose, and rough logic behind how it works. But using Git and Github always
         intimidated me, and I avoided it. Now I am comfortable using its basic features and ready to learn other
         ones.""",
         "live": "https://amcarigna.github.io/stargazers-log/",

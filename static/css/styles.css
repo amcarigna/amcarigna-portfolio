@@ -111,6 +111,7 @@ h3 {
   background-color: var(--secondary);
   box-shadow: 0 2px var(--secondary-shadow);
   transition: background-color 0.3s ease;
+  font-family: inherit;
 }
 
 .btn:hover {
@@ -270,17 +271,31 @@ header:has(.mobile-nav.open) {
   border: 3px solid var(--body-bg);
 }
 
+.project-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .project-techs {
   margin-bottom: 0.5rem;
 }
 
-.project-techs span {
+.project-techs span,
+.filter-btn {
   padding: 0.25rem 0.5rem;
   border-radius: 10px;
   font-size: 0.6rem;
   color: var(--header-text);
   background-color: var(--primary);
   box-shadow: 0 1px var(--primary-shadow);
+  font-family: inherit;
+}
+
+.filter-btn.active {
+  background-color: var(--secondary);
+  color: var(--header-text);
 }
 
 .project-text-container p {
@@ -442,6 +457,7 @@ footer {
   .project-text-container p,
   .hero-container p:last-of-type,
   .project-techs span,
+  .filter-btn,
   .project-links a,
   .contact-container p,
   footer {

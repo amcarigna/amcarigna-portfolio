@@ -36,3 +36,21 @@ mobileLinks.forEach((link) => {
     }
   });
 });
+
+document.querySelectorAll('.filter-btn').forEach(button => {
+    button.addEventListener('click', () => {
+        const filter = button.dataset.filter;
+
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        button.classList.add('active');
+
+        document.querySelectorAll('.project-container').forEach(project => {
+            const techs = project.dataset.techs.split(',');
+            if (filter === 'all' || techs.includes(filter)) {
+                project.style.display = '';
+            } else {
+                project.style.display = 'none';
+            }
+        });
+    });
+});
