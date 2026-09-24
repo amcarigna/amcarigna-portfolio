@@ -75,6 +75,38 @@ projects = [
         "repo": "https://github.com/amcarigna/pandas-data-cleaning"
     },
     {
+        "image": "/static/images/phantom.svg",
+        "name": "Deep Back Projection",
+        "techs": [
+            "Python",
+            "PyTorch",
+            "MATLAB"
+        ],
+        "description": """Joint work with classmate for Purdue University course project for BME 595. The topic of this
+        project is medical imaging reconstruction. For instance, we may be given an x-ray of a skull, and our objective
+        would be to mathematically reconstruct the skull. In this project, we use a convolutional neural network to
+        accurately carry out this task. Image credit to Larry Shepp and Benjamin F. Logan.""",
+        #"live": "https://python-portfolio-f63j.onrender.com/",
+        "repo": "https://github.com/amcarigna/deep-back-projection"
+    },
+    {
+        "image": "/static/images/keras.png",
+        "name": "Exercises in Keras",
+        "techs": [
+            "Python",
+            "Keras"
+        ],
+        "description": """A collection of deep learning tasks completed in Keras for MA598, at Purdue University.
+        Includes: 1) Training a convolutional neural network (CNN) on CIFAR-10, a database of images of common items. 2)
+        Training a recurrent neural network (RNN) on jena climate data. 3) A continuous bag of words (CBOW) embedding of
+        IMDB film review data used to train a dense neural network. 4) A Skip Gram embedding of IMDB film review data
+        used to train a dense neural network. 5) Training an autoencoder on CIFAR-10, a database of images of common
+        items, and then 6) using the autoencoder from the last part to train another autoencoder on the same
+        dataset.""",
+        # "live": "https://python-portfolio-f63j.onrender.com/",
+        "repo": "https://github.com/amcarigna/keras-exercises"
+    },
+    {
         "image": "/static/images/portfolio.png",
         "name": "Portfolio",
         "techs": [

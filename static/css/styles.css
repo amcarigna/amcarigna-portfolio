@@ -121,7 +121,7 @@ h3 {
 .section-square {
   width: 10px;
   height: 10px;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   background-color: var(--primary);
 }
 
@@ -411,7 +411,7 @@ footer {
   }
 
   .section-square {
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
   }
 
   .about-container p {
